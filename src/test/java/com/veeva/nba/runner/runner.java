@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 //@RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "features"
+		features = "features/BullsValidateLinks.feature"
 		,glue={"com/veeva/nba/stepdefinition"}
 		)
 

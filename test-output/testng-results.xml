@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-03T23:40:31 IST" name="Warriors" finished-at="2024-03-03T23:40:48 IST" duration-ms="17160">
+  <suite started-at="2024-03-04T00:22:48 IST" name="Default suite" finished-at="2024-03-04T00:22:58 IST" duration-ms="9867">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.veeva.nba.runner.runner@7e057f43]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.veeva.nba.runner.runner@59402b8f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-03-03T23:40:31 IST" name="Validate Footer HyperLinks" finished-at="2024-03-03T23:40:48 IST" duration-ms="17160">
+    <test started-at="2024-03-04T00:22:48 IST" name="Default test" finished-at="2024-03-04T00:22:58 IST" duration-ms="9867">
       <class name="com.veeva.nba.runner.runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.veeva.nba.runner.runner@7e057f43]" started-at="2024-03-03T23:40:31 IST" name="setUpClass" finished-at="2024-03-03T23:40:31 IST" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.veeva.nba.runner.runner@59402b8f]" started-at="2024-03-04T00:22:48 IST" name="setUpClass" finished-at="2024-03-04T00:22:48 IST" duration-ms="195" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6dd7b5a3]]>
+                <![CDATA[org.testng.TestRunner@17aa8a11]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.veeva.nba.runner.runner@7e057f43]" started-at="2024-03-03T23:40:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-03T23:40:48 IST" duration-ms="16824" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.veeva.nba.runner.runner@59402b8f]" started-at="2024-03-04T00:22:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-04T00:22:58 IST" duration-ms="9618" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,128 +37,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.veeva.nba.runner.runner@7e057f43]" started-at="2024-03-03T23:40:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-03T23:40:48 IST" duration-ms="117" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate Video Count"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Validate count in warriors Home Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'Land on warriors Home Page with "firefox"' and 5 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("Land on warriors Home Page with {string}")
-public void land_on_warriors_home_page_with(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("Click on Accept Captcha")
-public void click_on_accept_captcha() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("Hover to Menu")
-public void hover_to_menu() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("Click on News")
-public void click_on_news() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("Check Vidoes Found Now")
-public void check_vidoes_found_now() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("Check Total Vidoes Found")
-public void check_total_vidoes_found() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'Land on warriors Home Page with "firefox"' and 5 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("Land on warriors Home Page with {string}")
-public void land_on_warriors_home_page_with(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("Click on Accept Captcha")
-public void click_on_accept_captcha() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("Hover to Menu")
-public void hover_to_menu() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("Click on News")
-public void click_on_news() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("Check Vidoes Found Now")
-public void check_vidoes_found_now() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("Check Total Vidoes Found")
-public void check_total_vidoes_found() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.veeva.nba.runner.runner@7e057f43]" started-at="2024-03-03T23:40:48 IST" name="tearDownClass" finished-at="2024-03-03T23:40:48 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.veeva.nba.runner.runner@59402b8f]" started-at="2024-03-04T00:22:58 IST" name="tearDownClass" finished-at="2024-03-04T00:22:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.veeva.nba.runner.runner -->
-    </test> <!-- Validate Footer HyperLinks -->
-  </suite> <!-- Warriors -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
